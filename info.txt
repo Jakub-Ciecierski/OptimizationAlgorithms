@@ -1,0 +1,3 @@
+linprog 
+
+Initial point should be set properly. Satisfies conditions and is a 'extreme' vertex
