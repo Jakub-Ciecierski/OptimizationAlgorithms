@@ -3,7 +3,7 @@ clear
 format compact
 
 % Fun and Grad
-x0 = [-1;1;-2]
+x0 = [3;-1;-1]
 d0 = -grad(x0)
 F = @(alpha)fun(x0 + alpha*d0);
 GradF = @(alpha)grad(x0 + alpha*d0);
