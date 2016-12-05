@@ -65,6 +65,10 @@ z_c = z - c;
 base_indices = [m-n+1:m];
 A = [A,b];
 
+base_c_values = [-1000;-1000;-1000];
+[z, z_c] = update_z_c(base_c_values, A, c);
+
+
 end
 
 % -----------------------------------------

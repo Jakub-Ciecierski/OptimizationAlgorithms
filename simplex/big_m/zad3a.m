@@ -13,7 +13,7 @@ A = [6, 6, -3, 2, 5,       -1, 0 ,0,    1, 0, 0;
      -4, -4, 0, -1, -2,    0, 0, -1,    0, 0, 1];
 b = [5; 1; 6];
 
-[x, fval, exitflag] = simplex(f, A, b);
+[x, fval, exitflag] = simplex_bigm(f, A, b);
 
 x
 fval
